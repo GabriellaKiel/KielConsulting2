@@ -6,8 +6,9 @@
     <meta name="description" content="LinkedIn and Resume Services">
     <meta name="author" content="Gabriella Kiel">
     <title>Kiel Consulting</title>
+    <link rel="stylesheet" href="css/Heading.css">
 <!--Favicon-->
-    <link rel="icon" type="image/png" href="https://ih1.redbubble.net/image.896041934.5219/st,small,845x845-pad,1000x1000,f8f8f8.jpg">
+    <link rel="icon" type="image/png" href="https://ih1.redbubble.net/image.896041934.5219/st,small,845x845-pad,1000x1000,f8f8f8.jpg">   
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-QR5NLHTKX0"></script>
 <script>
@@ -17,45 +18,87 @@
 
   gtag('config', 'G-QR5NLHTKX0');
 </script>
+<style>
+ main h1{
+    margin-top: 80px;
+    text-align: center;
+    flex:1;
+    color: #3eb489;
+    font-size: 50px;}
+main section{ display:flex;}
+main section div{
+    margin-right: 1rem;
+    flex:1;
+    text-align: center;
+    font-weight: bold;
+    font-size: 28px;}
+main section #flip{ 
+    transform: rotate(180deg);}
+
+.CTA{
+    color: white;
+    background-color: #520160;
+    border: 1px solid black;
+    margin: 10px;
+    width:6cm;
+    text-align: center;}
+.company{display:flex;}
+.company img{
+    border-radius: 20%;
+    flex:1;
+    justify-content: space-evenly;
+    margin: 40px;
+    height:60px;
+    width:60px;}
+</style>
 </head>
-<!--Divide-->
 <body>
     <header>
-<section>
-    <h1>Kiel Consulting</h1>
+<section>  
+    
     <img src="images/logo.png" alt="logo">
-    <p>Empowering Futures, One Interview at a Time: Elevate your Professional Profile, Master Your Interview with Kiel Consulting</p>
- <!--CTA Button-->   
-    <div>
-    <p><strong>Make an Appointment</strong></p>
+    <article><p>Empowering Futures, One Interview at a Time:<br> Elevate your Professional Profile, Master Your Interview with Kiel Consulting</p> </article>  
+    
+
+<!--CTA Button-->   
+    <div class="CTA" id="head">
+    <p><strong><a href="Form.html" target="_blank"> Make An Appointment</a></strong></p>
     </div>
 </section>
 
-    <nav>
+<nav>
     <a href="index.html" target="_blank">Home</a>
     <a href="Resume.html" target="_blank">Resume Revival</a>  
     <a href="Interview.html" target="_blank">Interview Skills</a>   
     <a href="Form.html" target="_blank">Appointment</a>   
-    </nav>
+</nav>
     </header>
+
 <!--Divide-->
-    <main>
-    <h1>Pursue Career Progression</h1>
-    <p>Learn ways to increase your chances of being selected</p>
-    <p>Understand what recruiters are looking for</p>
-    <p>Invest in yourself professional development</p>
+<main>
+    <h1>Pursue Career <br> Progression</h1>
+    <section>
+<div>
     <img src="images/QuestionMark.png" alt="icon" height="300" width="300">
+    <p>Learn ways to increase your chances of being selected</p>
+</div>
+<div>
     <img src="images/lightbulb.png" alt="icon" height="300" width="300">
-    <img src="images/arrow.png" alt="icon" height="300" width="300"> <!--use css to flip image 1)give a class 2) transform:rotateX(180deg)-->
+    <p>Understand what recruiters are looking for</p>
+</div>
+<div>
+    <img src="images/arrow.png" alt="icon" height="300" width="300" id="flip">
+     <p>Invest in yourself professional development</p>
+</div>
+    </section>
+</main>
 
  <!--CTA Button-->   
-    <div>
-    <p><strong>Make an Appointment</strong></p>
+    <div class="CTA">
+    <p><strong><a href="Form.html" target="_blank"> Make An Appointment</a></strong></p>
     </div> 
 
-    </main>
-<!--Divide-->
-    <footer>
+<section class="company">
     <img src="images/img1.png" alt="logo" height="50" width="50">
     <img src="images/img2.jpg" alt="logo" height="50" width="50">
     <img src="images/img3.png" alt="logo" height="50" width="50">
@@ -65,32 +108,29 @@
     <img src="images/img7.png" alt="logo" height="50" width="50">
     <img src="images/img8.jpg" alt="logo" height="50" width="50">
     <img src="images/img9.jpg" alt="logo" height="50" width="50">
-
-<!--Scroll bar to see reviews-->
-<section>
-   <div>
-    &#9733;&#9733;&#9733;
-    <p>Gabby was great</p>
-   </div>
-   <div>
-    &#9733;&#9733;&#9733;&#9733;
-    <p>Gabby was awesome</p>
-   </div>
-   <div>
-    &#9733;&#9733;&#9733;&#9733;&#9733;
-    <p>Gabby was so educational</p>
-   </div>
-   <div>
-    &#9733;
-    <p>Terrible</p>
-   </div>
-</section>   
-<!--connect information-->
-<section>
-<a href="https://www.linkedin.com/in/gabriellakiel/" target="_blank"><img src="images/img10.png" alt="LinkedIn" height="50" width="50" ></a>
-<a href="https://www.instagram.com/gabriella.kiel/" target="_blank"><img src="images/img8.jpg" alt="Instagram" height="50" width="50" ></a>
-<a href="https://www.facebook.com/gabriella.kiel" target="_blank"><img src="images/img7.png" alt="Facebook" height="50" width="50" ></a>
 </section>
+<!--FOOTER----------------------------------------- -->
+    <footer>
+        <div>
+            &#9733;&#9733;&#9733;&#9733;&#9733;
+            <p>"Transformative Experience! The resume and interview service provided invaluable guidance in refining my professional image. Their expert advice helped me craft a compelling resume and taught me effective interview strategies. Thanks to their assistance, I landed my dream job!"</p>
+           </div>
+           <div>
+            &#9733;&#9733;&#9733;&#9733;
+            <p>"Game-Changer! This service elevated my job search to new heights. With their assistance, I learned how to present myself confidently and professionally. Their tailored approach helped me stand out in a competitive job market. I highly recommend their services to anyone seeking career advancement."</p>
+           </div>
+           <div>
+            &#9733;&#9733;&#9733;&#9733;&#9733;
+            <p>"Confidence Booster! The resume and interview service gave me the tools and confidence to showcase my skills and experience effectively. Their personalized approach addressed my specific needs and enabled me to articulate my value proposition to potential employers. Thanks to their support, I secured multiple job offers!"</p>
+           </div>
+           <div>
+            &#9733;&#9733;&#9733;&#9733;&#9733;
+            <p>"Professional Excellence! From resume refinement to mock interviews, this service exceeded my expectations at every step. Their attention to detail and industry expertise helped me present myself in the best possible light. With their help, I not only secured interviews but also received job offers from top companies. Highly recommended for anyone serious about advancing their career!"</p>
+           </div>
+<!--connect information-->
+<a href="https://www.linkedin.com/in/gabriellakiel/" target="_blank"><img src="images/Linkedin.png" alt="LinkedIn" height="50" width="50" ></a>
+<a href="https://www.instagram.com/gabriella.kiel/" target="_blank"><img src="images/Insta.png" alt="Instagram" height="50" width="80" ></a>
+<a href="https://www.facebook.com/gabriella.kiel" target="_blank"><img src="images/Facebook.png" alt="Facebook" height="50" width="50" ></a>
     </footer>
     
 </body>

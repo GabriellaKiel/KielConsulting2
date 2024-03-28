@@ -4,64 +4,92 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kiel Consulting</title>
+    <link rel="stylesheet" href="css/Heading.css">
     <!--Favicon-->
     <link rel="icon" type="image/png" href="https://ih1.redbubble.net/image.896041934.5219/st,small,845x845-pad,1000x1000,f8f8f8.jpg">
-<style>
-
-    nav{display:inline;
-    display: block;
-    padding: 8px;
-    background-color: #dddddd;} 
-    nav:hover{color:white;}
-</style>
+    <style>
+        main object{
+            margin-top: 100px;}
+        main section {display:flex;}
+        main section div{
+            flex: 1;
+            text-align: center;
+            font-weight:bold;
+            font-size: 28px;
+            background-color: #e8fff5;
+            border: black solid 3px;
+            margin: 20px;}
+        table tr th{
+            border: 1px solid;
+            background: #e8fff5;
+            padding:10px;}
+        div.scroll-container {
+            background-color: #dfe5e8;
+            overflow: auto;
+            white-space: nowrap;
+            padding: 50px;}
+        div.scroll-container img {
+            padding: 10px;}
+    
+    </style>
 </head>
 <body>
     <header>
-        <h1>Kiel Consulting</h1>
-        <img src="images/logo.png" alt="logo">
-        <p>Empowering Futures, One Interview at a Time: Elevate your Professional Profile, Master Your Interview with Kiel Consulting</p>
+        <section>   
+            <img src="images/logo.png" alt="logo">
+            <article><p>Empowering Futures, One Interview at a Time:<br> Elevate your Professional Profile, Master Your Interview with Kiel Consulting</p> </article>  
+        
+        <!--CTA Button-->   
+            <div class="CTA" id="head">
+            <p><strong><a href="Form.html" target="_blank"> Make An Appointment</a></strong></p>
+            </div>
+        </section>
+        
         <nav>
-        <a href="index.html" target="_blank">Home</a>
-        <a href="Resume.html" target="_blank">Resume Revival</a>  
-        <a href="Interview.html" target="_blank">Interview Skills</a>  
-        <a href="Form.html" target="_blank">Appointment</a>   
+            <a href="index.html" target="_blank">Home</a>
+            <a href="Resume.html" target="_blank">Resume Revival</a>  
+            <a href="Interview.html" target="_blank">Interview Skills</a>   
+            <a href="Form.html" target="_blank">Appointment</a>   
         </nav>
-         <!--CTA Button-->   
-        <div>
-        <p><strong>Make an Appointment</strong></p>
-        </div>
      </header>
      <main>
-        <object data="pdf/2024 Lauren Turner Resume.pdf" height="230" width="200"></object>
-        <object data="pdf/2024 Gabriella Kiel Resume.pdf" height="230" width="200"></object>
-        <object data="pdf/MEREDITH RESUME.pdf" height="230" width="200"></object>
-        <object data="pdf/Ryan Trom Resume .pdf" height="230" width="200"></object>
-        <object data="pdf/Sarah Brugh Resume.pdf" height="230" width="200"></object>
-        <object data="pdf/TAYLOR SWEENEY RESUME.pdf" height="230" width="200"></object>
+<div class="scroll-container">
+    <img src="images/LTresume.png" alt="resume1" width="300" height="400">
+    <img src="images/GKresume.png" alt="resume2" width="300" height="400">
+    <img src="images/MPresume.png" alt="resume3" width="300" height="400">
+    <img src="images/RTresume.png" alt="resume4" width="300" height="400">
+    <img src="images/SBresume.png" alt="resume5" width="300" height="400">
+    <img src="images/TSresume.png" alt="resume6" width="300" height="400">
 
+</div>
+<section>
         <div>
-            <h1>1.</h1>
+            <h1> Step 1.</h1>
             <p>Send your current resume</p>
         </div>
         <div>
-            <h1>2.</h1>
-            <p>Share industry and expectations</p>
+            <h1>Step 2.</h1>
+            <p>Share industry & expectations</p>
         </div>
         <div>
-            <h1>3.</h1>
+            <h1>Step 3.</h1>
             <p>Meeting to create/revamp</p>
         </div>
         <div>
-            <h1>4.</h1>
+            <h1>Step 4.</h1>
             <p>Confidence in your resume!</p>
         </div>
-
+</section>
          <!--CTA Button-->   
-        <div>
-        <p><strong>Make an Appointment</strong></p>
+
+        <div class="CTA">
+          <p><strong><a href="Form.html" target="_blank"> Make An Appointment</a></strong></p>
         </div>
 
-        <table> <caption><strong>Pricing</strong></caption>
+        <table> 
+            <tr>
+                <th colspan="3">Pricing</th>
+            </tr>
             <tr>
                 <th>Time</th>
                 <th>Scratch</th>
@@ -78,29 +106,30 @@
                 <th>$30</th>
             </tr>
             </table>
+
      </main>
     <footer>
         <!--Scroll bar to see reviews-->
-           <div>
-            &#9733;&#9733;&#9733;
-            <p>Gabby was great</p>
+        <div>
+            &#9733;&#9733;&#9733;&#9733;&#9733;
+            <p>"Transformative Experience! The resume and interview service provided invaluable guidance in refining my professional image. Their expert advice helped me craft a compelling resume and taught me effective interview strategies. Thanks to their assistance, I landed my dream job!"</p>
            </div>
            <div>
             &#9733;&#9733;&#9733;&#9733;
-            <p>Gabby was awesome</p>
+            <p>"Game-Changer! This service elevated my job search to new heights. With their assistance, I learned how to present myself confidently and professionally. Their tailored approach helped me stand out in a competitive job market. I highly recommend their services to anyone seeking career advancement."</p>
            </div>
            <div>
             &#9733;&#9733;&#9733;&#9733;&#9733;
-            <p>Gabby was so educational</p>
+            <p>"Confidence Booster! The resume and interview service gave me the tools and confidence to showcase my skills and experience effectively. Their personalized approach addressed my specific needs and enabled me to articulate my value proposition to potential employers. Thanks to their support, I secured multiple job offers!"</p>
            </div>
            <div>
-            &#9733;
-            <p>Terrible</p>
+            &#9733;&#9733;&#9733;&#9733;&#9733;
+            <p>"Professional Excellence! From resume refinement to mock interviews, this service exceeded my expectations at every step. Their attention to detail and industry expertise helped me present myself in the best possible light. With their help, I not only secured interviews but also received job offers from top companies. Highly recommended for anyone serious about advancing their career!"</p>
            </div>
         <!--connect information-->
-        <a href="https://www.linkedin.com/in/gabriellakiel/" target="_blank"><img src="images/img10.png" alt="LinkedIn" height="50" width="50" ></a>
-        <a href="https://www.instagram.com/gabriella.kiel/" target="_blank"><img src="images/img8.jpg" alt="Instagram" height="50" width="50" ></a>
-        <a href="https://www.facebook.com/gabriella.kiel" target="_blank"><img src="images/img7.png" alt="Facebook" height="50" width="50" ></a>
+        <a href="https://www.linkedin.com/in/gabriellakiel/" target="_blank"><img src="images/Linkedin.png" alt="LinkedIn" height="50" width="50" ></a>
+        <a href="https://www.instagram.com/gabriella.kiel/" target="_blank"><img src="images/Insta.png" alt="Instagram" height="50" width="80" ></a>
+        <a href="https://www.facebook.com/gabriella.kiel" target="_blank"><img src="images/Facebook.png" alt="Facebook" height="50" width="50" ></a>
     </footer>
 </body>
 </html>
