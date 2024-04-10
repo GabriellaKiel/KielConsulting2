@@ -8,13 +8,24 @@
     <!--Favicon-->
     <link rel="icon" type="image/png" href="https://ih1.redbubble.net/image.896041934.5219/st,small,845x845-pad,1000x1000,f8f8f8.jpg">
 <style>
-  fieldset{margin:80px;} 
+  h1{margin: 80px;
+    text-align:center;}
+  fieldset{margin:80px;}
+  legend{text-align: center;
+    font-weight:bold;}
+  form{text-align: center;}
+  form input,select{width: 300px;}
+  button{width: 80px;
+    font-weight: bold;}
+    /*
+  .textbox{height: 100px;
+    width: 500px;} */
   section{display: flex;}
   table tr th{
     border: 1px solid;
     flex:1;
     padding:10px;
-    background-color: #e8fff5;}
+    background-color: #e8fff5; }
   
 </style>
 </head>
@@ -38,6 +49,7 @@
     </nav>
     </header>
         <main>
+          <h1>Kick Start Your Future</h1>
             <fieldset>
                 <legend>Make an Appointment</legend>
             <form>
@@ -49,19 +61,8 @@
                 <input type="text" id="email" name="email">
                 <label for="phoneNumber">Phone Number:</label>
                 <input type="text" id="phoneNumber" name="phoneNumber"><br>
-                <label for="description">Description:</label>
-                <input type="text" id="description" name="description"><br>
-
-                <label for="service">Choose a service:</label>
-                <select id="time" name="time">
-                  <option value="30min">30 Min</option>
-                  <option value="1 Hour">1 Hour</option>
-                </select>
-                <select id="service" name="service">
-                    <option value="scratch">Scratch</option>
-                    <option value="revamp">Revamp</option>
-                  </select>
-                <br>
+                <label for="description" id="textbox">Description:</label>
+                <input type="text" id="description" name="description">
                 <label for="cal">Choose a date:</label>
                 <select id="cal" name="cal">
                   <option value="date">4/1/24</option>
@@ -69,7 +70,19 @@
                   <option value="date">4/3/24</option>
                   <option value="date">4/4/24</option>
                   <option value="date">4/5/24</option>
+                </select><br>
+
+                <label for="service">Choose a service:</label>
+                <select id="time" name="time">
+                  <option value="30min">30 Minutes</option>
+                  <option value="1 Hour">1 Hour</option>
                 </select>
+                <select id="service" name="service">
+                    <option value="scratch">Scratch</option>
+                    <option value="revamp">Revamp</option>
+                  </select>
+                <br>
+
                   <br>
                 <button type="button">Submit</button>
               </form>
