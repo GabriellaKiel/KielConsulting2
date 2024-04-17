@@ -12,13 +12,25 @@
             border: 1px solid;
             padding:10px;
             background-color: #e8fff5;}
-        main div{ margin:100px;}
+        main div{ margin:100px;
+            font-size: 18px;}
         .hands{
             float:right;
             position:absolute;
-            top: 300px;
+            top: 290px;
             left:600px;}
             /*places the image excatly where I want it to be on the page*/
+        #CTA{
+            height: 50px;
+            width: 6cm;
+            font-size: 16px;
+            position:absolute;
+            left: 5px;
+            top:740px;} 
+        table{ 
+            position:relative;
+            top:5px;
+            right: -950px;} 
     </style>
 </head>
 <body>
@@ -56,9 +68,8 @@
        
 
          <!--CTA Button-->   
-        <div class="CTA">
-        <p><strong><a href="Form.html" target="_blank"> Make An Appointment</a></strong></p>
-        </div>
+    
+        <p class="CTA" id="CTA"><strong><a href="Form.html" target="_blank"> Make An Appointment</a></strong></p>
         <table> 
             <tr>
                 <th colspan="3">Pricing</th>

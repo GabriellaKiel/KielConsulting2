@@ -27,10 +27,7 @@
 </style>
 <!--JS Form Validation-->
 <script> 
-  function validateForm() 
-  {let x = document.forms["myForm"]["fname"].value;
-  if (x == "") 
-  {alert("Name must be filled out");return false;}}
+function myFunction(){document.getElementById("java").innerHTML="Completed";}
 </script>
 
 </head>
@@ -57,9 +54,7 @@
           <h1>Kick Start Your Future</h1>
             <fieldset>
                 <legend>Make an Appointment</legend>
-<!--Nameing form for JS Form Validation-->  
-            <div id="error"></div>
-            <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+            <form>
               
                 <label for="fname">First name:</label>
                 <input type="text" id="fname" name="fname">
@@ -92,8 +87,7 @@
                 <br>
 
                   <br>
-<!--button JS-->
-                <button type="button" onclick="myFunction()">Submit</button>
+                <button type="button" id="java" onclick="myFunction()">Submit</button>
 
               </form>
             </fieldset>
